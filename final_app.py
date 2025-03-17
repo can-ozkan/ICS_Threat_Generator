@@ -471,7 +471,7 @@ def fetch_CWE_values(cve_id):
     base_url = 'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId='
 
     # Your API key
-    api_key = 'dfc24959-d1cc-46c1-a06b-073ad7007981'  # Replace with your actual API key
+    api_key = 'your API key'  # Replace with your actual API key
 
     url = base_url + cve_id.strip()  # strip() removes any leading/trailing whitespace
 
